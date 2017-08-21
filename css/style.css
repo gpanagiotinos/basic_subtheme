@@ -1,0 +1,126 @@
+/**
+ * Place your custom styles here.
+ */
+/*General customizations*/
+ .html{
+ 	background: #0043b1 !important;
+ }
+ /*custom top navigation bar*/
+
+.custom_fixednav_left_text{
+ 	color: white !important;
+ 	padding: 15px 5px !important;
+ }
+ .custom_fixednav_right_text{
+ 	color: #00FFFF !important;
+ 	padding: 15px 5px !important;
+ }
+.custom_glyphicon{
+	padding-right: 5px;
+	color: white;
+}
+
+
+
+
+/*flag icons css*/
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+.custom_fixednav_right_icon{
+	padding: 15px 5px !important;
+}
+.flag-icon-gr {
+  background-image: url(./flags/4x3/gr.svg);
+}
+.flag-icon-gr.flag-icon-squared {
+  background-image: url(./flags/1x1/gr.svg);
+}
+
+.flag-icon-gb {
+  background-image: url(./flags/4x3/gb.svg);
+}
+.flag-icon-gb.flag-icon-squared {
+  background-image: url(./flags/1x1/gb.svg);
+}
+
+/*flag icons end*/
+
+
+
+/*middle navbar*/
+.custom_middle_navbar_row{
+	margin-top: 65px;
+}
+
+/*logo*/
+.logo_div{
+	padding-top: 50px;
+}
+.img_div{
+	overflow: hidden;
+}
+.img_tag{
+	width: 100%;
+	height: 100px;
+}
+/*search form*/
+.custom_divinput_group{
+	margin-top: 26px;
+	border: 1px solid white;
+	
+}
+.custom_input_search{
+	border:0;
+	border-radius: 0;
+	background: transparent;
+}
+.custom_button_search{
+	color: white;
+	background: #00FFFF;
+	border-radius: 0;
+	border: 0;
+}
+.custom_button_search:hover, .custom_button_search:focus{
+		background-color: #00FFFF;
+		color: white;
+ 		text-decoration: none;
+}
+
+/* menu */
+.custom_middle_menu{
+	height: 100px;
+	display: flex;
+  	justify-content: center;
+}
+.custom_middle_menu_ul{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 0;
+	
+}
+.custom_middle_menu_ul li a{
+	color: white;
+}
+.custom_middle_menu_ul>li>a:hover, .custom_middle_menu>li>a:focus{
+		background-color: transparent;
+		color: #00FFFF;
+ 		text-decoration: none;
+}
