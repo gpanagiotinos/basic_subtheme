@@ -5,8 +5,11 @@
  .html{
  	background: #0043b1 !important;
  }
- /*custom top navigation bar*/
 
+ /*custom top navigation bar*/
+.custom_fixedright_div{
+	float: left;
+}
 .custom_fixednav_left_text{
  	color: white !important;
  	padding: 15px 5px !important;
@@ -18,6 +21,19 @@
 .custom_glyphicon{
 	padding-right: 5px;
 	color: white;
+}
+.custom_fixednav_right_links{
+	float: left;
+}
+
+
+ @media (max-width: 767px) {
+  	.custom_fixednav_left_text{
+    	padding: 0px 0px !important;
+    }
+	.custom_fixednav_right_text{
+		padding: 0px 0px !important;
+	}
 }
 
 
@@ -60,6 +76,14 @@
 .flag-icon-gb.flag-icon-squared {
   background-image: url(./flags/1x1/gb.svg);
 }
+.custom_fixednav_right_lang li{
+	float: left;
+}
+@media (max-width: 767px) {
+  	.custom_fixednav_right_icon{
+    	padding: 0px 0px !important;
+    }
+}
 
 /*flag icons end*/
 
@@ -78,7 +102,7 @@
 	overflow: hidden;
 }
 .img_tag{
-	width: 100%;
+	width: 250px;
 	height: 100px;
 }
 /*search form*/
@@ -118,9 +142,26 @@
 }
 .custom_middle_menu_ul li a{
 	color: white;
+	font-size: 13px;
 }
 .custom_middle_menu_ul>li>a:hover, .custom_middle_menu>li>a:focus{
 		background-color: transparent;
 		color: #00FFFF;
  		text-decoration: none;
+}
+
+/*main menu*/
+.custom_main_menu_container{
+	background: white;
+	margin: 0 0 !important;
+	display: flex;
+  	justify-content: center;
+}
+.custom_main_menu_navbar{
+	margin: 0;
+}
+.custom_main_menu li a{
+	font-size: 16px;
+	color: black;
+	margin: 0 0 0 2.2em;
 }
